@@ -1,2 +1,2 @@
-FROM rodrigobrito/refdiff:lastest
+FROM rodrigobrito/refdiff
 CMD ["java", "-jar", "/refdiff.jar"]
