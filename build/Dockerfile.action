@@ -1,8 +1,0 @@
-FROM openjdk:8-jdk-alpine
-
-WORKDIR /refdiff
-
-ADD refdiff.jar .
-ADD refdiff_lib .
-
-CMD java -cp "refdiff_lib/*" -jar refdiff.jar

@@ -1,2 +1,2 @@
 FROM rodrigobrito/refdiff
-CMD ["java", "-jar", "/refdiff.jar"]
+CMD java -cp "/refdiff/refdiff_lib/*" -jar /refdiff/refdiff.jar
