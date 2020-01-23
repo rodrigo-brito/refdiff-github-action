@@ -2,4 +2,4 @@ name: "RefDiff - Refactoring Detector"
 description: "A Simple Refatoring detector"
 runs:
     using: "docker"
-    image: "build/Dockerfile"
+    image: "Dockerfile"
